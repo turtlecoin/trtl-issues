@@ -97,8 +97,6 @@ async function fetchRepoIssues(repo) {
     const issuesDiv = document.createElement('div');
     issuesDiv.className = 'list list-row list-hoverable';
 
-    const svg = createCommentSVG();
-
     for (const issue of issues) {
         const listItemDiv = document.createElement('div');
         listItemDiv.className = 'list-item';
@@ -146,7 +144,7 @@ async function fetchRepoIssues(repo) {
             ? 'list-item-actions show'
             : 'd-none';
 
-        issueCommentsLink.appendChild(svg);
+        issueCommentsLink.appendChild(createCommentSVG());
         issueCommentsLink.appendChild(document.createTextNode(issue.comments));
 
         listItemDiv.appendChild(issueCommentsLink);
