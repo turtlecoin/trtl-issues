@@ -75,9 +75,15 @@ function createCommentSVG() {
 }
 
 async function fetchRepoIssues(repo) {
-    const issueRes = await fetch(`https://api.github.com/repos/turtlecoin/${repo.name}/issues`);
+    const issueRes = await fetch(`https://api.github.com/repos/turtlecoin/${repo.name}/issues`, {
+        headers: {
+            Authorization: '',
+        },
+    });
 
-    const issues = (await issueRes.json()).filter((i) => !i.pull_request);
+    let issues = await issueRes.json();
+
+    issues = issues.filter((i) => !i.pull_request);
 
     if (issues.length === 0) {
         return;
@@ -157,9 +163,19 @@ async function fetchRepoIssues(repo) {
 
 async function loadGithubIssues() {
     try {
-        const res = await fetch('https://api.github.com/orgs/turtlecoin/repos?sort=updated');
+        const res = await fetch('https://api.github.com/orgs/turtlecoin/repos?sort=updated', {
+            headers: {
+                Authorization: '',
+            },
+        });
 
         const repos = await res.json();
+
+        /* GitHub error */
+        if (repos.message) {
+            alert(repos.message);
+            return;
+        }
 
         const mainDiv = document.getElementById('main');
         const sidebar = document.querySelector('.list-unstyled');
@@ -168,10 +184,15 @@ async function loadGithubIssues() {
 
         bodySideBar.style.display = 'none';
 
-        let issues = 0;
+        let issueCount = 0;
+
+        const promises = [];
 
         for (const repo of repos) {
-            fetchRepoIssues(repo).then(({ repoIssues, count }) => {
+            const issues = fetchRepoIssues(repo);
+            promises.push(issues);
+
+            issues.then(({ repoIssues, count } = {}) => {
                 if (repoIssues) {
                     mainDiv.appendChild(repoIssues);
 
@@ -186,12 +207,15 @@ async function loadGithubIssues() {
 
                     sidebar.appendChild(sidebarItem);
 
-                    issues += count;
+                    issueCount += count;
 
-                    title.innerText = `${issues} Open Issues`;
+                    title.innerText = `${issueCount} Open Issues`;
                 }
             });
         }
+
+        /* Wait for all promises to complete */
+        await Promise.all(promises);
 
         bodySideBar.style.display = 'block';
 		$('[data-toggle="tooltip"]').tooltip();
