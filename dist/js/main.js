@@ -154,6 +154,7 @@ async function fetchRepoIssues(repo) {
     repoDiv.appendChild(issuesDiv);
 
     return {
+        repo,
         repoIssues: repoDiv,
         count: issues.length,
     };
@@ -193,33 +194,35 @@ async function loadGithubIssues() {
         const promises = [];
 
         for (const repo of repos) {
-            const issues = fetchRepoIssues(repo);
-            promises.push(issues);
-
-            issues.then(({ repoIssues, count } = {}) => {
-                if (repoIssues) {
-                    mainDiv.appendChild(repoIssues);
-
-                    const sidebarItem = document.createElement('li');
-                    sidebarItem.className = 'toc-entry toc-h2';
-
-                    const repoLink = document.createElement('a');
-                    repoLink.href = `#${repo.name}`;
-                    repoLink.textContent = repo.name;
-
-                    sidebarItem.appendChild(repoLink);
-
-                    sidebar.appendChild(sidebarItem);
-
-                    issueCount += count;
-
-                    title.innerText = `${issueCount} Open Issues`;
-                }
-            });
+            promises.push(fetchRepoIssues(repo));
         }
 
-        /* Wait for all promises to complete */
-        await Promise.all(promises);
+        for (const pendingIssues of promises) {
+            const {
+                repoIssues,
+                count,
+                repo
+            } = (await pendingIssues) || {};
+
+            if (repoIssues) {
+                mainDiv.appendChild(repoIssues);
+
+                const sidebarItem = document.createElement('li');
+                sidebarItem.className = 'toc-entry toc-h2';
+
+                const repoLink = document.createElement('a');
+                repoLink.href = `#${repo.name}`;
+                repoLink.textContent = repo.name;
+
+                sidebarItem.appendChild(repoLink);
+
+                sidebar.appendChild(sidebarItem);
+
+                issueCount += count;
+
+                title.innerText = `${issueCount} Open Issues`;
+            }
+        }
 
         bodySideBar.style.display = 'block';
 		$('[data-toggle="tooltip"]').tooltip();
