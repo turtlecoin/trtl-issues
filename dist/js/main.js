@@ -160,8 +160,14 @@ async function fetchRepoIssues(repo) {
 }
 
 async function loadGithubIssues() {
+    const useLocalIssues = true;
+
+    const issuesURL = useLocalIssues
+        ? './repos.json'
+        : 'https://api.github.com/orgs/turtlecoin/repos?sort=updated';
+
     try {
-        const res = await fetch('https://api.github.com/orgs/turtlecoin/repos?sort=updated', {
+        const res = await fetch(issuesURL, {
             headers: {
                 Authorization: '',
             },

@@ -1,202 +1,202 @@
 [
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-nodes-json"
+        "full_name": "turtlecoin/turtlecoin-nodes-json",
+        "name": "turtlecoin-nodes-json"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-wallet-backend-js"
+        "full_name": "turtlecoin/turtlecoin-wallet-backend-js",
+        "name": "turtlecoin-wallet-backend-js"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-utils"
+        "full_name": "turtlecoin/turtlecoin-utils",
+        "name": "turtlecoin-utils"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "blockchain-explorer"
+        "full_name": "turtlecoin/blockchain-explorer",
+        "name": "blockchain-explorer"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin"
+        "full_name": "turtlecoin/turtlecoin",
+        "name": "turtlecoin"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin.lol"
+        "full_name": "turtlecoin/turtlecoin.lol",
+        "name": "turtlecoin.lol"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-pools-json"
+        "full_name": "turtlecoin/turtlecoin-pools-json",
+        "name": "turtlecoin-pools-json"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-docs"
+        "full_name": "turtlecoin/turtlecoin-docs",
+        "name": "turtlecoin-docs"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "node-turtlecoin-p2p"
+        "full_name": "turtlecoin/node-turtlecoin-p2p",
+        "name": "node-turtlecoin-p2p"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "node-turtlecoin-base58"
+        "full_name": "turtlecoin/node-turtlecoin-base58",
+        "name": "node-turtlecoin-base58"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "node-turtlecoin-mnemonics"
+        "full_name": "turtlecoin/node-turtlecoin-mnemonics",
+        "name": "node-turtlecoin-mnemonics"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "node-bytestream-helper"
+        "full_name": "turtlecoin/node-bytestream-helper",
+        "name": "node-bytestream-helper"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "ledger-app-turtlecoin"
+        "full_name": "turtlecoin/ledger-app-turtlecoin",
+        "name": "ledger-app-turtlecoin"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-pool-monitor"
+        "full_name": "turtlecoin/turtlecoin-pool-monitor",
+        "name": "turtlecoin-pool-monitor"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "node-turtle-pool"
+        "full_name": "turtlecoin/node-turtle-pool",
+        "name": "node-turtle-pool"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "node-cryptonote-util"
+        "full_name": "turtlecoin/node-cryptonote-util",
+        "name": "node-cryptonote-util"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-crypto"
+        "full_name": "turtlecoin/turtlecoin-crypto",
+        "name": "turtlecoin-crypto"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "node8-multi-hashing"
+        "full_name": "turtlecoin/node8-multi-hashing",
+        "name": "node8-multi-hashing"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtle-wallet-proton"
+        "full_name": "turtlecoin/turtle-wallet-proton",
+        "name": "turtle-wallet-proton"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-webwallet-cli"
+        "full_name": "turtlecoin/turtlecoin-webwallet-cli",
+        "name": "turtlecoin-webwallet-cli"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "tld-chatops"
+        "full_name": "turtlecoin/tld-chatops",
+        "name": "tld-chatops"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-explorer-react"
+        "full_name": "turtlecoin/turtlecoin-explorer-react",
+        "name": "turtlecoin-explorer-react"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-3d-mempool-visualization-webgl"
+        "full_name": "turtlecoin/turtlecoin-3d-mempool-visualization-webgl",
+        "name": "turtlecoin-3d-mempool-visualization-webgl"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "checkpoints-ipfs-helper"
+        "full_name": "turtlecoin/checkpoints-ipfs-helper",
+        "name": "checkpoints-ipfs-helper"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-mobile-wallet"
+        "full_name": "turtlecoin/turtlecoin-mobile-wallet",
+        "name": "turtlecoin-mobile-wallet"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-link-fetcher"
+        "full_name": "turtlecoin/turtlecoin-link-fetcher",
+        "name": "turtlecoin-link-fetcher"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "trtl-apps"
+        "full_name": "turtlecoin/trtl-apps",
+        "name": "trtl-apps"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-explorer-backend-typescript"
+        "full_name": "turtlecoin/turtlecoin-explorer-backend-typescript",
+        "name": "turtlecoin-explorer-backend-typescript"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "ipfs-cf-checkpointer-node"
+        "full_name": "turtlecoin/ipfs-cf-checkpointer-node",
+        "name": "ipfs-cf-checkpointer-node"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-node-monitor"
+        "full_name": "turtlecoin/turtlecoin-node-monitor",
+        "name": "turtlecoin-node-monitor"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-test-suite"
+        "full_name": "turtlecoin/turtlecoin-test-suite",
+        "name": "turtlecoin-test-suite"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": ".trtl"
+        "full_name": "turtlecoin/.trtl",
+        "name": ".trtl"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "go-turtlecoin"
+        "full_name": "turtlecoin/go-turtlecoin",
+        "name": "go-turtlecoin"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "wallet-api-lisp"
+        "full_name": "turtlecoin/wallet-api-lisp",
+        "name": "wallet-api-lisp"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "brand"
+        "full_name": "turtlecoin/brand",
+        "name": "brand"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "funky-turtle-pool"
+        "full_name": "turtlecoin/funky-turtle-pool",
+        "name": "funky-turtle-pool"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "wallet-api-docs"
+        "full_name": "turtlecoin/wallet-api-docs",
+        "name": "wallet-api-docs"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "exile-bot"
+        "full_name": "turtlecoin/exile-bot",
+        "name": "exile-bot"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoind-ha"
+        "full_name": "turtlecoin/turtlecoind-ha",
+        "name": "turtlecoind-ha"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "discord-reaction-role-bot"
+        "full_name": "turtlecoin/discord-reaction-role-bot",
+        "name": "discord-reaction-role-bot"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "ninjarig"
+        "full_name": "turtlecoin/ninjarig",
+        "name": "ninjarig"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-api-proxy"
+        "full_name": "turtlecoin/turtlecoin-api-proxy",
+        "name": "turtlecoin-api-proxy"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "violetminer"
+        "full_name": "turtlecoin/violetminer",
+        "name": "violetminer"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtle-wear"
+        "full_name": "turtlecoin/turtle-wear",
+        "name": "turtle-wear"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "hackathon-site"
+        "full_name": "turtlecoin/hackathon-site",
+        "name": "hackathon-site"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-rpc-go"
+        "full_name": "turtlecoin/turtlecoin-rpc-go",
+        "name": "turtlecoin-rpc-go"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "checkpoints"
+        "full_name": "turtlecoin/checkpoints",
+        "name": "checkpoints"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "static-block-explorer"
+        "full_name": "turtlecoin/static-block-explorer",
+        "name": "static-block-explorer"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtledu-git-cli"
+        "full_name": "turtlecoin/turtledu-git-cli",
+        "name": "turtledu-git-cli"
     },
     {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-network-mapper"
+        "full_name": "turtlecoin/turtlecoin-network-mapper",
+        "name": "turtlecoin-network-mapper"
     }
 ]
